@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT club</title>
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/media.css">
     <link rel="stylesheet" href="/style/icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,27 +17,34 @@
 </head>
 <body>
     <header>
-        <div class="header_top">
+        <div class="header_top open">
             <div class="container">
-                <div class="head_top">
+                <div class="header_content">
                     <div class="header_logo">
                         <img src="/photo/Монтажная_область_1_5x-8_2-removebg-preview.png" alt="">
                         <p>Образовательная 
                             платформа 
                             MOTION WEB LLC</p>
                     </div>
-                    <div class="header_menu">
-                        <li><a href="#" class="menu">Наши курсы</a></li>
-                        <li><a href="#" class="menu">IT-club</a></li>
-                        <li><a href="#" class="menu">IT-camp</a></li>
-                        <li><a href="#" class="menu">Магазин</a></li>
-                    </div>
-                    <div class="lang">
-                        <li><a href="#">Русский</a></li>
-                        <li><a href="#">Кыргызский</a></li>
-                        <img src="/photo/Тил.png" alt="">
-                    </div>
-                </div>    
+                    <button class="button_btn" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="head_top">
+                        <div class="header_menu">
+                            <li><a href="#" class="menu">Наши курсы</a></li>
+                            <li><a href="#" class="menu">IT-club</a></li>
+                            <li><a href="#" class="menu">IT-camp</a></li>
+                            <li><a href="#" class="menu">Магазин</a></li>
+                        </div>
+                        <div class="lang">
+                            <li><a href="#">Русский</a></li>
+                            <li><a href="#">Кыргызский</a></li>
+                            <img src="/photo/Тил.png" alt="">
+                        </div>
+                    </div> 
+                </div>       
             </div>
         </div> 
         <div class="header_main">
@@ -103,6 +111,7 @@
                             <p>С уважением,<br><span>Маргулан Сейсембаев</span></p>
                             <img src="/photo/кол.png" alt="">
                         </div>
+                        <img src="/photo/img info.png" alt="" class="img_info">
                     </div>
                 </div>
             </div>
@@ -207,10 +216,13 @@
                             <a href="#" class="card_button">Подробнее</a>
                         </div>
                     </div>
-                </div>  
+                </div>
                 <div class="jorney_block">
                     <h1>СОВМЕСТНЫЕ ПУТЕШЕСТВИЯ</h1>
                     <div class="jorney_card">
+                        <div class="jorney__img">
+                            <img src="/photo/To_be_youself 1.png" alt="">
+                        </div>
                         <div class="jorney_text">
                             <h3 class="jorney_title">Путешествия по всему миру</h3>
                             <p>Трансформационные экспедиционные туры с Маргуланом и 
@@ -228,7 +240,7 @@
                         </div>
                         <img src="/photo/To_be_youself 1.png" alt="">
                     </div>
-                </div> 
+                </div>
                 <div class="Invest">
                     <h1>ИНВЕСТ КЛУБ</h1>
                     <div class="invest_card">
@@ -247,6 +259,7 @@
                             </div>
                             <a href="#" class="invest_button">Подробнее</a>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -407,7 +420,7 @@
             </div>
         </div>
     </main>
-    <footer>
+   <footer>
         <div class="container">
             <div class="footer_frist">
                 <div class="footer_logo">
@@ -460,7 +473,7 @@
 
 
 
-
+    <script defer src="/js/main.js"></script>
     <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" ></script> 
     <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
 </body>
